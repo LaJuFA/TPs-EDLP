@@ -1,0 +1,18 @@
+h1 {
+  font-size: 60px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+h2 {
+  color: #FF661A;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+body {
+  background-color: #FFF2E6;
+  font-family: "Quicksand", Sans-serif;
+}
+img {
+  width: 40%;
+}
