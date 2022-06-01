@@ -18,3 +18,6 @@ https://lajufa.github.io/TPs-EDLP/TP%205/index.html
 
 TP 6:
 https://lajufa.github.io/TPs-EDLP/TP%206/index.html
+
+TP 7:
+https://lajufa.github.io/TPs-EDLP/TP%207/index.html
