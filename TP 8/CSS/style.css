@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+
+body {
+  font-family: 'Baloo Bhaijaan 2';
+  margin: 0;
+}
+
+header {
+  padding: 5px;
+  background-color: SpringGreen;
+  font-size: 36px;
+  text-align: center;
+}
+
+nav {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 4px;
+}
+
+nav a:hover {
+  background-color: gray;
+}
+
+.Blur {
+  width: 100%;
+  height: 200px;
+  opacity: 0.5;
+  object-fit: cover;
+  filter: blur(3px);
+  padding-top: 36px;
+}
+
+h2 {
+  font-size: 32px;
+  text-align: center;
+  background-color: LightGray;
+  color: white;
+  margin-top: 15px;
+}
+
+.S-A {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Sok {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Junte el texto y la imagen en un solo div llamado Carta
+adentro de carta hay mas divs igual, otra cosa que me dio una migraña */
+
+.Carta {
+  display: flex;
+  justify-content: center;
+}
+
+.Carta img,iframe {
+  width: 500px;
+  height: 318px;
+  object-fit: cover;
+}
+
+.Txt {
+  background-color: LightGray;
+  padding-right: 10px;
+  padding-left: 10px;
+  overflow: auto;
+  height: 318px;
+  width: 300px;
+}
+
+.Txt h3 {
+  text-align: center;
+}
+
+aside iframe {
+  height: 646px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: SeaGreen;
+  padding: 10px 10px 0px 10px;
+}
+
+.Wha {
+  position: fixed;
+  top: 94%;
+  right: 1%;
+}
+
+/* Aca van los media queries o querys no se como se dice, la cosa es que me
+dieron un dolor de cabeza terrible */
+@media screen and (max-width:1024px) {
+  .S-A, .Sok, .Carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Carta img,iframe {
+    width: 400px;
+    height: 318px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .Carta img,iframe {
+    width: 300px;
+    height: 318px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width:320px) {
+    nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Carta img,iframe {
+    width: 300px;
+    height: 318px;
+    object-fit: cover;
+  }
+  header {
+    font-size: 24px;
+  }
+}
